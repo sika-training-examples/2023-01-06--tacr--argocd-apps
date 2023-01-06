@@ -19,6 +19,7 @@ spec:
       values: |
         host: hello-world-go.k8s.sikademo.com
         image: registry.sikademo.com/tacr/hello-world-go:master-d5736d18-6
+        replicas: 10
   syncPolicy:
     automated:
       prune: true
