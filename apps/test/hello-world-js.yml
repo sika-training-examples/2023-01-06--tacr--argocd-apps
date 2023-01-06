@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/sikalabs/charts.git
     targetRevision: HEAD
-    path: charts/hello-world
+    path: charts/one-image
     helm:
       releaseName: test-hello-world-js
       values: |
