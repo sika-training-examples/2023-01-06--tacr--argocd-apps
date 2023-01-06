@@ -15,7 +15,7 @@ spec:
     helm:
       releaseName: test-hello-world-js-2
       values: |
-        host: test-hello-world-js.k8s.sikademo.com
+        host: test-hello-world-js-2.k8s.sikademo.com
         image: registry.sikademo.com/tacr/hello-world-js:master-dc29feeb-1
         containerPort: 3000
   syncPolicy:
